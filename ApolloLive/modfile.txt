@@ -1,0 +1,21 @@
+-:
+  name: Apollo Live
+  author: Kruft
+  description: Allows live syncing of trait data with the Apollo Trait Calculator
+:-
+
+:: Import "File.lua" :: Import file
+:: Import "Scripts" :: Imports all files from Scripts
+:: Include <files> :: ?
+:: To <files> :: Sets Target File
+:: Load Priority <N>  :: Sets load priority of following imports
+:: Import <files>  :: lua
+:: SJSON <files>  :: sjson
+:: XML <files>  :: xml
+
+Load Priority 0.6
+  Import "Config.lua"
+  Import "Tools.lua"
+  Import "Connection.lua"
+  Import "Update.lua"
+  Import "Manager.lua"

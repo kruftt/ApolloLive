@@ -21,7 +21,7 @@ Warning! Backup save files before using.
 &nbsp;
 ## ApolloLive.Send
 
-ApolloLive provides the Send function for use by other modders in exploration and debugging.  After installing ApolloLive, other mods may send messages to the Apollo app run in the web browser.  By default, a connected ApolloLive mod logs any such messages to the console:
+ApolloLive provides the Send function for use by other modders in exploration and debugging.  After installing ApolloLive, other mods may send messages to the Apollo app running in the web browser.  By default, a connected ApolloLive logs any such messages to the console:
 
 &nbsp;
 
@@ -55,4 +55,7 @@ function handler(msg) {
 }
 
 ApolloLive.setListener(handler)
+
+
+> received a message    Hello World
 ```
